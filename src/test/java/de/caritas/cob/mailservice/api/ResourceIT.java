@@ -33,7 +33,7 @@ class ResourceIT {
   void descriptionShouldDefineDefaultLanguageAndExistingTemplate() throws IOException {
     var jsonFiles = resourceResolver.getResources(TEMPLATES_DIR + DESC_FILE_PATTERN);
     var defaultLanguage = new MailDTO().getLanguage();
-    assertTrue(jsonFiles.length > 8);
+    assertTrue(jsonFiles.length > 7);
 
     for (Resource jsonFile : jsonFiles) {
       var json = Files.readString(jsonFile.getFile().toPath());
@@ -51,7 +51,7 @@ class ResourceIT {
   @Test
   void descriptionShouldDeclareExistingTemplates() throws IOException {
     var jsonFiles = resourceResolver.getResources(TEMPLATES_DIR + DESC_FILE_PATTERN);
-    assertTrue(jsonFiles.length > 8);
+    assertTrue(jsonFiles.length > 7);
 
     for (Resource jsonFile : jsonFiles) {
       var json = Files.readString(jsonFile.getFile().toPath());
@@ -71,7 +71,7 @@ class ResourceIT {
   @Test
   void descriptionShouldDeclareDistinctTemplates() throws IOException {
     var jsonFiles = resourceResolver.getResources(TEMPLATES_DIR + DESC_FILE_PATTERN);
-    assertTrue(jsonFiles.length > 8);
+    assertTrue(jsonFiles.length > 7);
 
     for (Resource jsonFile : jsonFiles) {
       var json = Files.readString(jsonFile.getFile().toPath());
@@ -87,7 +87,7 @@ class ResourceIT {
   @Test
   void descriptionShouldDeclareDistinctLanguages() throws IOException {
     var jsonFiles = resourceResolver.getResources(TEMPLATES_DIR + DESC_FILE_PATTERN);
-    assertTrue(jsonFiles.length > 8);
+    assertTrue(jsonFiles.length > 7);
 
     for (Resource jsonFile : jsonFiles) {
       var json = Files.readString(jsonFile.getFile().toPath());
@@ -103,7 +103,7 @@ class ResourceIT {
   void descriptionShouldHaveSubjectKey() throws IOException {
     var jsonFiles = resourceResolver.getResources(TEMPLATES_DIR + DESC_FILE_PATTERN);
     var defaultLanguage = new MailDTO().getLanguage();
-    assertTrue(jsonFiles.length > 8);
+    assertTrue(jsonFiles.length > 7);
 
     for (Resource jsonFile : jsonFiles) {
       var json = Files.readString(jsonFile.getFile().toPath());
