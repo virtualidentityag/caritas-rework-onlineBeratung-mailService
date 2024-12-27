@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.10.0](https://github.com/CaritasDeutschland/caritas-onlineBeratung-mailService/compare/v1.9.0...v1.10.0) (2024-12-27)
+
+
+### Features
+
+* add unit test to cover that CRSF filter is working ([6d5b84d](https://github.com/CaritasDeutschland/caritas-onlineBeratung-mailService/commit/6d5b84dd54a0ecc477e4dd22bbeffca7e87bd21e))
+* attempt to fix sonar ([7925f2e](https://github.com/CaritasDeutschland/caritas-onlineBeratung-mailService/commit/7925f2e1aeba75a66ddca0dcdb001005f8461222))
+* enable distributed tracing ([de6da7e](https://github.com/CaritasDeutschland/caritas-onlineBeratung-mailService/commit/de6da7e98ca439e862f3f45bf1c6eb3e6aeb7a21))
+* revert due to failing tests ([7a9db36](https://github.com/CaritasDeutschland/caritas-onlineBeratung-mailService/commit/7a9db361f8792e012c27c0f3036da9c52d4897e0))
+
+
+### Bug Fixes
+
+* CARITAS-243 ([561a2e6](https://github.com/CaritasDeutschland/caritas-onlineBeratung-mailService/commit/561a2e6465c33e0d366e149269396b93b470c05c))
+* CARITAS-243 ([391bab5](https://github.com/CaritasDeutschland/caritas-onlineBeratung-mailService/commit/391bab59be23db01f8a834b50dd398ae0ee7524d))
+* CARITAS-243 ([e5d180b](https://github.com/CaritasDeutschland/caritas-onlineBeratung-mailService/commit/e5d180b55356e7baec4e800f8687640bcfc48e64))
+* LineInputStream dependency issue ([b881b99](https://github.com/CaritasDeutschland/caritas-onlineBeratung-mailService/commit/b881b992b2a473b3ff3bb1b648f8fea538852e95))
+
 ## 1.9.0 (2024-06-18)
 
 
